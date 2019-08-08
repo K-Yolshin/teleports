@@ -1,0 +1,25 @@
+{
+  "signIn": {
+    "byPhone": {
+      "byEmailLink": "/sign-in/email",
+      "signUpLink": "/sign-up",
+      "restoreLink": "/restore"
+    },
+    "byEmail": {
+      "byPhoneLink": "/sign-in/phone",
+      "signUpLink": "/sign-up",
+      "restoreLink": "/restore"
+    }
+  },
+  "common": {
+    "resendCode": "./confirm"
+  },
+  "restore": {
+    "bySupport": {
+      "byPhoneLink": "/restore/by-phone"
+    },
+    "byPhone": {
+      "bySupportLink": "/restore/by-support"
+    }
+  }
+}

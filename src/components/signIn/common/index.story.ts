@@ -1,0 +1,43 @@
+import button from './Button/index.story';
+import buttonBack from './ButtonBack/index.story';
+import card from './Card/index.story';
+import cardsGrid from './CardsGrid/index.story';
+import center from './Center/index.story';
+import checkbox from './Checkbox/index.story';
+import form from './Form/index.story';
+import input from './Input/index.story';
+import link from './Link/index.story';
+import list from './List/index.story';
+import logo from './Logo/index.story';
+import page from './Page/index.story';
+import phoneInput from './PhoneInput/index.story';
+import select from './Select/index.story';
+import spacer from './Spacer/index.story';
+import text from './Text/index.story';
+import textAfter from './TextAfter/index.story';
+import textBefore from './TextBefore/index.story';
+import title from './Title/index.story';
+
+export default (path: string) => {
+  const base = `${path}/common`;
+
+  button(base);
+  buttonBack(base);
+  card(base);
+  cardsGrid(base);
+  center(base);
+  checkbox(base);
+  form(base);
+  input(base);
+  link(base);
+  list(base);
+  logo(base);
+  page(base);
+  phoneInput(base);
+  select(base);
+  spacer(base);
+  text(base);
+  textAfter(base);
+  textBefore(base);
+  title(base);
+};
